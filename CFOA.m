@@ -46,7 +46,7 @@ while EFs<Max_EFs
     end
    
     if EFs<Max_EFs/2
-            alpha=((1-3*EFs/2*Max_EFs)^(3*EFs/2*Max_EFs));
+            alpha=((1-3*EFs/(2*Max_EFs))^(3*EFs/(2*Max_EFs)));
             p=rand;
             pos=randperm(SearchAgents_no);
             i=1;
